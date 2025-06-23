@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youMeal</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+        <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+        <header class="header">
+            <div class="container">
+                <div class="header__background">
+                <nav class="header__nav">
+                    <img src="./img/logo.png" >
+                </nav>
+
+                <div class="header__general">
+                    <img src="./img/pic.png" >
+                    <div class="header__box">
+                        <h2 class="header__title">Только самые <span class="header__span">сочные бургеры!</span></h2>
+                        <p class="header__text">Бесплатная доставка от 599₽</p>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </header>
+
+
+
+        <main class="main">
+
+
+            <section class="meal1" id="meal1">
+                <div class="container">
+                    <div class="meal1__general">
+                        <a href="http://127.0.0.1:5500/index.html#meal1"><button class="meal1__btn" id="meal1__btn1"><img src="./img/Бургеры.png" >Бургеры</button></a>
+                        <a href="http://127.0.0.1:5500/Закуски.html#meal1"><button class="meal1__btn" style="background-color: #FF7020;" id="meal1__btn2"><img src="./img/Закуски.png" >Закуски</button></a>
+                        <a href="http://127.0.0.1:5500/Хот-доги.html#meal1"><button class="meal1__btn" id="meal1__btn3"><img src="./img/Хот-доги.png" >Хот-доги</button></a>
+                        <button class="meal1__btn" id="meal1__btn4"><img src="./img/Комбо.png" >Комбо</button>
+                        <button class="meal1__btn" id="meal1__btn5"><img src="./img/free-icon-burrito-2362225.png" >Шаурма</button>
+                        <button class="meal1__btn" id="meal1__btn6"><img src="./img/Пицца.png" >Пицца</button>
+                        <button class="meal1__btn" id="meal1__btn7"><img src="./img/Вок.png" >Вок</button>
+                        <button class="meal1__btn" id="meal1__btn8"><img src="./img/Десерты.png" >Десерты</button>
+                        <button class="meal1__btn" id="meal1__btn9"><img src="./img/Соусы.png" >Соусы</button>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <section class="meal2">
+                <div class="container">
+                    <h2 class="meal2__title">Закуски</h2>
+                    <div class="meal2__general">
+                        <div class="meal2__box1">
+                            <div class="meal2__textBox">
+                                <h3 class="meal2__subject">Корзина</h3>
+                                <button class="meal2__trashBtn" onclick="location.reload()"><i class="bx bx-trash">Trash</i></button>
+                            </div>
+
+                            <ul class="meal2__list">
+
+                                <!-- <li class="meal2__item">
+                                    <img src="./media/img/photo.png" class="meal2__img">
+
+                                    <div class="meal2__textbox">
+                                        <p class="box2__itemText">Мясная бомба</p>
+                                        <span class="box2__itemSpan">520г</span>
+                                        <span class="box2__itemPrice">689₽</span>
+                                    </div>
+
+                                    <button class="meal2__btn"><span class="meal2__minus">-</span> 1 <span class="meal2__plus">+</span></button>
+                                </li> -->
+
+                            </ul>
+                            <div class="meal2__spanBox">
+                                <span class="meal2__total">Итого</span>
+                                <span class="meal2__span2"><span class="subtotal">0</span>₽</span>
+                            </div>
+                            <button class="meal2__btnStyle">Оформить заказ</button>
+                            <div class="meal2__imgBox">
+                                <img src="./img/Доставка.png" >
+                                <h3 class="meal2__sub">Бесплатная доставка</h3>
+                            </div>
+                        </div>
+
+                        <div class="meal2__box2 box2">
+                            <div class="box2__box">
+
+                                <!-- <div class="card">
+                                    <img src="./media/img/photo (6).png" class="meal2__img2">
+                                    <span class="box2__price">250₽</span>
+                                    <p class="box2__text">Начос</p>
+                                    <span class="box2__span">220г</span>
+                                    <button class="box2__btn" onclick="addItemArray()">Добавить</button>
+                                </div>
+
+                                <div class="card">
+                                    <img src="./media/img/photo (7).png" class="meal2__img2">
+                                    <span class="box2__price">245₽</span>
+                                    <p class="box2__text">Картошка фри</p>
+                                    <span class="box2__span">180г</span>
+                                    <button class="box2__btn" onclick="addItemArray()">Добавить</button>
+                                </div>
+
+                                <div class="card">
+                                    <img src="./media/img/photo (8).png" class="meal2__img2">
+                                    <span class="box2__price">230₽</span>
+                                    <p class="box2__text">Луковые кольца</p>
+                                    <span class="box2__span">160г</span>
+                                    <button class="box2__btn" onclick="addItemArray()">Добавить</button>
+                                </div>
+
+                               <div class="card">
+                                    <img src="./media/img/photo (6).png" class="meal2__img2">
+                                    <span class="box2__price">250₽</span>
+                                    <p class="box2__text">Начос</p>
+                                    <span class="box2__span">220г</span>
+                                    <button class="box2__btn" onclick="addItemArray()">Добавить</button>
+                                </div>
+
+                                <div class="card">
+                                    <img src="./media/img/photo (7).png" class="meal2__img2">
+                                    <span class="box2__price">245₽</span>
+                                    <p class="box2__text">Картошка фри</p>
+                                    <span class="box2__span">180г</span>
+                                    <button class="box2__btn" onclick="addItemArray()">Добавить</button>
+                                </div>
+
+                                <div class="card">
+                                    <img src="./media/img/photo (8).png" class="meal2__img2">
+                                    <span class="box2__price">230₽</span>
+                                    <p class="box2__text">Луковые кольца</p>
+                                    <span class="box2__span">160г</span>
+                                    <button class="box2__btn" onclick="addItemArray()">Добавить</button>
+                                </div> -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__general">
+                        <img src="./img/logo (1).png" >
+                        <nav class="footer__nav">
+                            <ul class="footer__list">
+                                <h3 class="footer__subject">Номер для заказа</h3>
+                                <a href="tel:+7930833-38-11" class="footer__phone"><i class="bx bxs-phone"></i>+7(930)833-38-11</a>
+                            </ul>
+
+                            <ul class="footer__list">
+                                <h3 class="footer__subject">Мы в соцсетях</h3>
+                                <div class="footer__iconBox">
+                                    <i class='bxl  bx-vk'></i> 
+                                    <i class='bxl  bx-telegram'></i> 
+                                </div>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <p class="footer__text">© YouMeal, 2022 <br>
+                        Design: Anastasia Ilina</p>
+                </div>
+            </footer>
+
+
+
+
+            
+            <div class="modal__buyurtma">
+                <div class="buyurtma__box modal__box">
+                    <div class="modal__box1">
+                        <img src="./img/pic (1).png" >
+                    </div>
+                    <form class="modal__form">
+                        <i class="bx bx-x"></i>
+                        <h3 class="modal__subject">Доставка</h3>
+                        <input type="text" class="modal__input" placeholder="Ваше имя" >
+                        <input type="text" class="modal__input" placeholder="Телефон" >
+                        <label>
+                            <input class="modal__inputRadio" type="radio" name="buyurtma" value="Самовывоз">
+                            Самовывоз
+                        </label><br>
+                        <label>
+                            <input class="modal__inputRadio" type="radio" name="buyurtma" value="Доставка">
+                            Доставка
+                        </label>
+
+                        <button class="modal__btn">Оформить</button>
+                    </form>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <!-- modal about ____________________________________________________________________ -->
+            <div class="modal__about" id="modal__about1">
+                <div class="about__box">
+                    <i class="bx bx-x about__x"></i>
+                    <div class="about__box1">
+                        <h2 class="about__title">Мясная бомба</h2>
+                        <img src="./img/photo.png" class="">
+                        <button class="about__btn">Добавить</button>
+                    </div>
+
+                    <div class="about__box2">
+                        <p class="about__text">Супер мясное наслаждение! Большая рубленая котлета из свежего говяжего мяса покорит вас своей сочностью, а хрустящие листья салата добавят свежести.</p>
+                        <p class="about__text2">Состав:
+                            Пшеничная булочка
+                            Котлета из говядины
+                            Красный лук
+                            Листья салата
+                            Соус горчичный
+                        </p>
+                        <span class="about__span">520г, ккал 430</span>
+                        <div class="about__textBox">
+                            <button class="about__btn2"><span class="meal2__minus">-</span> 1 <span class="meal2__plus">+</span></button>
+                            <span class="box2__price">689₽</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="modal__about" id="modal__about2">
+                <div class="about__box">
+                    <i class="bx bx-x about__x"></i>
+                    <div class="about__box1">
+                        <h2 class="about__title">Супер сырный</h2>
+                        <img src="./img/photo (1).png" class="">
+                        <button class="about__btn">Добавить</button>
+                    </div>
+
+                    <div class="about__box2">
+                        <p class="about__text">Супер мясное наслаждение! Большая рубленая котлета из свежего говяжего мяса покорит вас своей сочностью, а хрустящие листья салата добавят свежести.</p>
+                        <p class="about__text2">Состав:
+                            Пшеничная булочка
+                            Котлета из говядины
+                            Красный лук
+                            Листья салата
+                            Соус горчичный
+                        </p>
+                        <span class="about__span">520г, ккал 430</span>
+                        <div class="about__textBox">
+                            <button class="about__btn2"><span class="meal2__minus">-</span> 1 <span class="meal2__plus">+</span></button>
+                            <span class="box2__price">689₽</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="modal__about" id="modal__about3">
+                <div class="about__box">
+                    <i class="bx bx-x about__x"></i>
+                    <div class="about__box1">
+                        <h2 class="about__title">Сытный</h2>
+                        <img src="./img/photo.png" class="">
+                        <button class="about__btn">Добавить</button>
+                    </div>
+
+                    <div class="about__box2">
+                        <p class="about__text">Супер мясное наслаждение! Большая рубленая котлета из свежего говяжего мяса покорит вас своей сочностью, а хрустящие листья салата добавят свежести.</p>
+                        <p class="about__text2">Состав:
+                            Пшеничная булочка
+                            Котлета из говядины
+                            Красный лук
+                            Листья салата
+                            Соус горчичный
+                        </p>
+                        <span class="about__span">520г, ккал 430</span>
+                        <div class="about__textBox">
+                            <button class="about__btn2"><span class="meal2__minus">-</span> 1 <span class="meal2__plus">+</span></button>
+                            <span class="box2__price">689₽</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="modal__about" id="modal__about4">
+                <div class="about__box">
+                    <i class="bx bx-x about__x"></i>
+                    <div class="about__box1">
+                        <h2 class="about__title">Тяжелый удар</h2>
+                        <img src="./img/photo.png" class="">
+                        <button class="about__btn">Добавить</button>
+                    </div>
+
+                    <div class="about__box2">
+                        <p class="about__text">Супер мясное наслаждение! Большая рубленая котлета из свежего говяжего мяса покорит вас своей сочностью, а хрустящие листья салата добавят свежести.</p>
+                        <p class="about__text2">Состав:
+                            Пшеничная булочка
+                            Котлета из говядины
+                            Красный лук
+                            Листья салата
+                            Соус горчичный
+                        </p>
+                        <span class="about__span">520г, ккал 430</span>
+                        <div class="about__textBox">
+                            <button class="about__btn2"><span class="meal2__minus">-</span> 1 <span class="meal2__plus">+</span></button>
+                            <span class="box2__price">689₽</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="modal__about" id="modal__about5">
+                <div class="about__box">
+                    <i class="bx bx-x about__x"></i>
+                    <div class="about__box1">
+                        <h2 class="about__title">Вечная классика</h2>
+                        <img src="./img/photo.png" class="">
+                        <button class="about__btn">Добавить</button>
+                    </div>
+
+                    <div class="about__box2">
+                        <p class="about__text">Супер мясное наслаждение! Большая рубленая котлета из свежего говяжего мяса покорит вас своей сочностью, а хрустящие листья салата добавят свежести.</p>
+                        <p class="about__text2">Состав:
+                            Пшеничная булочка
+                            Котлета из говядины
+                            Красный лук
+                            Листья салата
+                            Соус горчичный
+                        </p>
+                        <span class="about__span">520г, ккал 430</span>
+                        <div class="about__textBox">
+                            <button class="about__btn2"><span class="meal2__minus">-</span> 1 <span class="meal2__plus">+</span></button>
+                            <span class="box2__price">689₽</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="modal__about" id="modal__about6">
+                <div class="about__box">
+                    <i class="bx bx-x about__x"></i>
+                    <div class="about__box1">
+                        <h2 class="about__title">Итальянский</h2>
+                        <img src="./img/photo.png" class="">
+                        <button class="about__btn">Добавить</button>
+                    </div>
+
+                    <div class="about__box2">
+                        <p class="about__text">Супер мясное наслаждение! Большая рубленая котлета из свежего говяжего мяса покорит вас своей сочностью, а хрустящие листья салата добавят свежести.</p>
+                        <p class="about__text2">Состав:
+                            Пшеничная булочка
+                            Котлета из говядины
+                            Красный лук
+                            Листья салата
+                            Соус горчичный
+                        </p>
+                        <span class="about__span">520г, ккал 430</span>
+                        <div class="about__textBox">
+                            <button class="about__btn2"><span class="meal2__minus">-</span> 1 <span class="meal2__plus">+</span></button>
+                            <span class="box2__price">689₽</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <audio src="./audio/pubg audio.mp3" class="audio"></audio>
+
+        </main>
+
+
+    <script src="./js/burger.js"></script>
+    <script src="./js/Закуски.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/Хот-доги.js"></script>
+</body>
+</html>
