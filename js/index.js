@@ -132,7 +132,7 @@ closeBtn.addEventListener("click", ()=>{
 
 // about modal___________________________________________________________
 let about = document.querySelector("#modal__about1");
-let openAbout = document.querySelector(".meal2__img2");
+let openAbout = document.querySelector(" .meal2__img2");
 let closeAbout = document.querySelector(".about__x");
 
 openAbout.addEventListener("click", ()=>{
